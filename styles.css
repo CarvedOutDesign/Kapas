@@ -1,0 +1,137 @@
+/* ===============================
+   Author: Carved-Out Design
+   Date:   2-7-1015
+   
+   Notes: Personally coded by Carved-Out Design exclusively for Kapas Turtle Valley Resort
+  
+   
+   Colour Palette:
+   ---------------
+   Snow White: #fffafa
+   Dull Shadow: #E5E1E1
+
+   =============================== */
+
+/*===================
+	General
+====================*/
+
+body {
+   background: url('../images/fabric_of_squares_gray.png') top left repeat;
+   -moz-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+   font-family: 'Lato', 'Open Sans', sans-serif;
+   font-size: 1em;
+   font-weight: normal;
+}
+
+.container {
+   margin: 0 auto;
+   width: 70%;
+   padding: 30px 24px;
+}
+
+/*===================
+	Typography
+====================*/
+
+.title {
+   font-family: 'Kaushan Script';
+   color: #fffafa;
+   text-shadow: 2px 2px #E5E1E1;
+   letter-spacing: 2px;
+   font-size: 2.5em;
+   display: inline;
+   z-index: 2;
+   position: relative;
+   bottom: 10px;
+}
+
+#handshake {
+   font-size: 1.75em;
+}
+
+/*===================
+	Header
+====================*/
+
+header nav {
+   position: relative;
+   text-align: center;
+}
+
+header nav ul {
+   margin: 0.75em 0;
+   padding: 0;
+   display: block;
+}
+
+header nav ul li {
+   display: inline-block;
+   padding: 0 25px;
+   border-right: 0.05em solid #fffafa;
+}
+
+#exclude {
+   border: none;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: #E5E1E1;
+   font-weight: bold;
+   letter-spacing: 0.02em;
+}
+
+a:hover {
+   color: #fffafa;
+}
+
+/*===================
+	Hero
+====================*/
+
+#splash {
+   position: absolute;
+   margin: 0 auto;
+   padding-left: 2.5%;
+   width: 95%;
+}
+
+#logo-box {
+   width: 600px;
+   margin: 130px auto;
+
+}
+
+#logo {
+   position: relative;
+   z-index: 2;
+}
+
+/*===================
+   Body
+====================*/
+
+#page-content {
+   position: relative;
+   top: 400px;
+}
+
+/*===================
+	Footer
+====================*/
+
+/*===================
+	Global
+====================*/
+
+.clearfix:after {
+   visibility: hidden;
+   display: block;
+   content: "";
+   clear: both;
+   height: 0;
+   }
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
