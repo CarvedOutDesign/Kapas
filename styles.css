@@ -15,6 +15,20 @@
 /*===================
 	General
 ====================*/
+@media screen and (max-width: 768px) {
+	.logo {
+	width: 90%;
+	height: 90%;
+	} 
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+	width: 80%;
+	height: 80%;
+	} 
+}
+
 
 body {
    background: url('../images/fabric_of_squares_gray.png') top left repeat;
@@ -84,7 +98,7 @@ header nav ul li a {
 
 a:hover {
    color: #fffafa;
-   -webkit-tranisition: color .4s;
+   -webkit-transition: color .4s;
    transition: color .4s;
 }
 
@@ -136,3 +150,4 @@ a:hover {
    }
 * html .group             { zoom: 1; } /* IE6 */
 *:first-child+html .group { zoom: 1; } /* IE7 */
+
